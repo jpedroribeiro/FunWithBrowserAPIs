@@ -1,0 +1,33 @@
+body {
+	background: #333;
+	color: #eee;
+}
+
+.container {
+	padding: 24px 0;
+}
+
+.output {
+	border: 1px solid grey;
+	margin-bottom: 16px;
+	width: 100%;
+	max-width: 40vw;
+}
+
+button {
+	border: none;
+	background: transparent;
+	cursor: pointer;
+	outline: transparent;
+	display: block;
+	margin: 0 auto;
+}
+
+#fx {
+	background: #252525;
+	border: none;
+	border-bottom: 1px solid black;
+	width: 100%;
+	padding: 4px 8px;
+	font-family: monospace;
+}

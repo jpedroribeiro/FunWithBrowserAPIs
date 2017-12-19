@@ -1,0 +1,24 @@
+{
+	"name": "funwithbrowserapis",
+	"version": "1.0.0",
+	"description":
+		"Mini projects to test out some interesting browser APIs: Shape Detector, Image Capture, Generic Sensors and Speech Recognition",
+	"main": "index.js",
+	"dependencies": {
+		"eslint": "^4.13.1"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jpedroribeiro/FunWithBrowserAPIs.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/jpedroribeiro/FunWithBrowserAPIs/issues"
+	},
+	"homepage": "https://github.com/jpedroribeiro/FunWithBrowserAPIs#readme"
+}
