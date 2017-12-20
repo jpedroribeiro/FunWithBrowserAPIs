@@ -4,11 +4,11 @@ Mini projects to test out some interesting browser APIs: Shape Detection, Image 
 
 ## Image Capture / Media Stream
 
-Application that captures the camera feed and generate a downloadable image. Canvas filters can be applied to it for some simple image manipulation.
+The [image capture application](imagecapture/) opens the camera feed and generate a downloadable image. Canvas filters can be applied to it for some simple image manipulation.
 
 ## Shape Detection
 
-An example of how the Face Detection API works, highlighting face, eyes and mouth of an image.
+This is [an example](shapedetection/) of how the Face Detection API works, highlighting face, eyes and mouth of an image. There is a [second example](imagecapture/trek/) using a different image, and also [another version](imagecapture/live/) using the live camera feed, that mixes Image Capture and Face Detection into one.
 
 ## Speech Recognition
 
