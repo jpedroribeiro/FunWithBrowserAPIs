@@ -1,0 +1,29 @@
+body {
+	background: #333;
+	color: #eee;
+}
+
+.container {
+	padding: 24px 0;
+}
+
+#poster {
+	max-height: 50vw;
+}
+
+.alert {
+	width: 100%;
+}
+
+a {
+	color: inherit;
+}
+
+button {
+	border: none;
+	background: transparent;
+	cursor: pointer;
+	outline: transparent;
+	margin-top: 16px;
+	display: inline-block;
+}

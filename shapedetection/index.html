@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<title>
-		MediaStream / ImageCapture / Fun with browser APIs
+		Shape Detection / Fun with browser APIs
 	</title>
 
 	<link rel="stylesheet" href="../styles/bootstrap.css">
@@ -16,17 +16,17 @@
 	<div class="container">
 		<div class="row">
 			<h1 class="alert alert-secondary">
-				<a href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Streams_API">MediaStream</a> /
-				<a href="https://developer.mozilla.org/en-US/docs/Web/API/ImageCapture" title="ImageCapture API">ImageCapture</a>
+				<a href="https://wicg.github.io/shape-detection-api/#face-detection">Face Detection</a>
 			</h1>
 		</div>
 		<div class="row">
 			<div class="col">
-				<video id="livefeed" class="output livefeed"></video>
+				<img src="./jedi.jpg" id="poster">
 			</div>
+		</div>
+		<div class="row">
 			<div class="col">
-				<canvas id="photo" class="output photo"></canvas>
-				<input type="text" id="fx" placeholder="Apply filters...">
+				<button id="detect">👥</button>
 			</div>
 		</div>
 	</div>

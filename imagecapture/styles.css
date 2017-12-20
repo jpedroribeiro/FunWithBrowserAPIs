@@ -31,3 +31,11 @@ button {
 	padding: 4px 8px;
 	font-family: monospace;
 }
+
+.alert {
+	width: 100%;
+}
+
+a {
+	color: inherit;
+}
