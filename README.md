@@ -8,7 +8,7 @@ Application that captures the camera feed and generate a downloadable image. Can
 
 ## Shape Detection
 
-TODO
+An example of how the Face Detection API works, highlighting face, eyes and mouth of an image.
 
 ## Speech Recognition
 

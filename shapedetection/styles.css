@@ -7,10 +7,6 @@ body {
 	padding: 24px 0;
 }
 
-#poster {
-	max-height: 50vw;
-}
-
 .alert {
 	width: 100%;
 }
@@ -26,4 +22,16 @@ button {
 	outline: transparent;
 	margin-top: 16px;
 	display: inline-block;
+}
+
+#image-container {
+	position: relative;
+	overflow: hidden;
+}
+
+#outlines {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
 }
