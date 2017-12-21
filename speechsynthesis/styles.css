@@ -15,7 +15,7 @@ a {
 	color: inherit;
 }
 
-#livefeed {
+input {
 	background: #252525;
 	border: none;
 	border-bottom: 1px solid black;
@@ -27,22 +27,14 @@ a {
 	margin-bottom: 16px;
 }
 
-#output {
-	background: #252525;
-	border: none;
-	border-bottom: 1px solid black;
-	width: 100%;
-	padding: 4px 8px;
-	font-family: monospace;
-	height: 300px;
-	color: white;
-	font-size: 16px;
+#voicePicker {
+	width: 200px;
 }
 
 button {
 	border: none;
 	background: transparent;
-	font-size: 32px;
 	cursor: pointer;
 	outline: transparent;
+	font-size: 50px;
 }

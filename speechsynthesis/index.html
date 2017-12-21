@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<title>
-		Speech Recognition / Fun with browser APIs
+		Speech Synthesis / Fun with browser APIs
 	</title>
 
 	<link rel="stylesheet" href="../styles/bootstrap.css">
@@ -16,16 +16,27 @@
 	<div class="container">
 		<div class="row">
 			<h1 class="alert alert-secondary">
-				<a href="https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition">Speech Recognition</a>
+				<a href="https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis">Speech Synthesis</a>
 			</h1>
 		</div>
 		<div class="row">
 			<div class="col">
-				<input type="text" id="livefeed" placeholder="Live feed" />
-				<textarea id="output"></textarea>
-				<button id="action">✅</button>
+				<input type="text" id="input" placeholder="Type here..." />
 			</div>
 		</div>
+		<div class="row">
+			<div class="col">
+				<select id="voicesList"></select>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col">
+				<button id="play">🗣</button>
+			</div>
+		</div>
+
+
 	</div>
 
 
