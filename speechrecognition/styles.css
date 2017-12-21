@@ -1,0 +1,40 @@
+body {
+	background: #333;
+	color: #eee;
+}
+
+.container {
+	padding: 24px 0;
+}
+
+.alert {
+	width: 100%;
+}
+
+a {
+	color: inherit;
+}
+
+#livefeed {
+	background: #252525;
+	border: none;
+	border-bottom: 1px solid black;
+	width: 100%;
+	padding: 4px 8px;
+	font-family: monospace;
+	color: white;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+
+#output {
+	background: #252525;
+	border: none;
+	border-bottom: 1px solid black;
+	width: 100%;
+	padding: 4px 8px;
+	font-family: monospace;
+	height: 300px;
+	color: white;
+	font-size: 16px;
+}
