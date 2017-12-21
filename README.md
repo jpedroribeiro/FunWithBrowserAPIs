@@ -16,7 +16,7 @@ In [this demo](speechrecognition/) we show how to use SpeedRecognition interface
 
 ## Speech Synthesis 🗣
 
-This is [text to speech example](speechsynthesis/), still making use of the Web Speech API through the Speech Synthesis interface.
+This is a [text to speech example](speechsynthesis/), still making use of the Web Speech API through the Speech Synthesis interface.
 
 ## Generic Sensors
 
