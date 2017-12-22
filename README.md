@@ -27,7 +27,7 @@ The generic sensors API is very new (Chrome 63+) and contains an interesting set
 For more details on this, head over to the [Generic Sensor API playground
 ](https://intel.github.io/generic-sensor-demos/).
 
-### Reading Material & External Sources
+# Reading Material & External Sources
 
 * https://developers.google.com/web/updates/2016/12/imagecapture
 * https://webrtc.github.io/samples/src/content/getusermedia/canvas/
