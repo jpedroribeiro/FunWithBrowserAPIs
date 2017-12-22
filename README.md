@@ -26,3 +26,16 @@ The generic sensors API is very new (Chrome 63+) and contains an interesting set
 
 For more details on this, head over to the [Generic Sensor API playground
 ](https://intel.github.io/generic-sensor-demos/).
+
+### Reading Material & External Sources
+
+https://developers.google.com/web/updates/2016/12/imagecapture
+https://webrtc.github.io/samples/src/content/getusermedia/canvas/
+https://deanhume.com/Home/BlogPost/shape-detection-api--detecting-barcodes--faces-and-text-inside-an-image/10158
+https://developers.google.com/web/updates/2017/09/sensors-for-the-web
+https://intel.github.io/generic-sensor-demos/
+https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition
+https://www.youtube.com/watch?v=0mJC0A72Fnw
+https://www.smashingmagazine.com/2014/12/enhancing-ux-with-the-web-speech-api/#speech-recognition
+https://svignara.github.io/experiments/2017/03/25/web-speech-api/
+https://wicg.github.io/shape-detection-api/#face-detection
