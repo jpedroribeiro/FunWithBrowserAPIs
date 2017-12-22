@@ -12,7 +12,7 @@ This is [an example](shapedetection/) of how the Face Detection API works, highl
 
 ## Speech Recognition 📝
 
-In [this demo](speechrecognition/) we show how to use SpeedRecognition interface to simulate a dictation feature.
+In [this demo](speechrecognition/) we show how to use SpeedRecognition interface to simulate a dictation feature and an extra button that performs a search on the VoucherCodes.co.uk website.
 
 ## Speech Synthesis 🗣
 

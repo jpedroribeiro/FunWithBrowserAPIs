@@ -32,3 +32,26 @@ window.action.addEventListener('click', event => {
 		recognition.stop();
 	}
 });
+
+// VoucherCodes.co.uk Search
+const vcsearchRecognition = new webkitSpeechRecognition();
+vcsearchRecognition.lang = 'en-US';
+vcsearchRecognition.interimResults = true;
+
+vcsearchRecognition.addEventListener('result', event => {
+	for (result of event.results) {
+		if (result.isFinal) {
+			window.open(
+				`https://www.vouchercodes.co.uk/search/?q=${result[0].transcript}`
+			);
+			break;
+		}
+	}
+});
+
+window.vc.addEventListener('mousedown', event => {
+	vcsearchRecognition.start();
+});
+window.vc.addEventListener('mouseup', event => {
+	vcsearchRecognition.stop();
+});
