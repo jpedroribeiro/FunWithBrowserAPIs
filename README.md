@@ -18,6 +18,11 @@ In [this demo](speechrecognition/) we show how to use SpeedRecognition interface
 
 This is a [text to speech example](speechsynthesis/), still making use of the Web Speech API through the Speech Synthesis interface.
 
-## Generic Sensors
+## Generic Sensors 📱
 
-TODO
+Due to the limited capabilities of my personal iPhone, I couldn't test this API properly or create a demo for it.
+
+The generic sensors API is very new (Chrome 63+) and contains an interesting set of interfaces to play with: Accelerometer, Linear Acceleration Sensor, Gyroscope, Absolute Orientation Sensor and RelativeOrientationSensor. Some are only available under feature flags.
+
+For more details on this, head over to the [Generic Sensor API playground
+](https://intel.github.io/generic-sensor-demos/).
